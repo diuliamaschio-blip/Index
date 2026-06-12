@@ -1,0 +1,76 @@
+/* Reset CSS - Zera as margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Estilização do Cabeçalho */
+.cabecalho {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.titulo-principal {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilização do Conteúdo */
+.conteudo-principal {
+    max-width: 940px;
+    margin: 0 auto; /* Centraliza o bloco na tela */
+    padding: 30px 15px;
+}
+
+/* Estilização da Imagem Banner */
+.banner {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+/* Seção Sobre */
+.sobre-barbearia {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Parágrafos e Destaques */
+.sobre-barbearia p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+    font-size: 1.1rem;
+}
+
+.texto-destaque {
+    font-size: 1.25rem !important;
+    font-weight: 500;
+    text-align: center;
+    color: #444444;
+}
+
+/* Estilização da Missão (itálico e negrito) */
+.sobre-barbearia em {
+    font-style: italic;
+    color: #b8860b; /* Um toque dourado para destacar a missão */
+}
